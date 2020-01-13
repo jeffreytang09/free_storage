@@ -66,6 +66,6 @@ drive.download_file(
 drive.delete_file("directory_name/test.txt")
 ```
 
-TODO:
+### TODO
 - For `create_file` method under `GoogleDriveStorage`, allow creating nested levels of directories, instead of just one level down 
 - Stream reading large files without downloading the whole file to local
