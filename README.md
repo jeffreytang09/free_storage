@@ -1,7 +1,7 @@
 ## free_storage 
 
 ### Motivation
-[GoogleDrive](https://www.google.com/drive/) provides up to 15GB of free storage (as of the date of writing). The offical Python API ([`pydrive`](https://pythonhosted.org/PyDrive/index.html)) is a bit tricky to use when you have a nested directory structure. The goal here is to be able to manipulate . If you are using GoogleCloud, S3 or other paid storage services, [cloud-storage-client](https://pypi.org/project/cloud-storage-client/) might be a better for you. As the name suggests, this is really useful at all if you want to stick to something free :) 
+[GoogleDrive](https://www.google.com/drive/) provides up to 15GB of free storage (as of the date of writing). The offical Python API ([`pydrive`](https://pythonhosted.org/PyDrive/index.html)) is a bit tricky to use when you have a nested directory structure. The goal here is to be able to manipulate files GoogleDrive as if you are on your local drive using `os`. If you are using GoogleCloud, S3 or other paid storage services, [cloud-storage-client](https://pypi.org/project/cloud-storage-client/) will be a better library. As the name suggests, this is only useful if you want to stick to the free stuff :) 
 
 ### Installation
 
